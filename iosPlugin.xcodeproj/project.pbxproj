@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2207792422C8830500662ACC /* gl3w in Sources */ = {isa = PBXBuildFile; fileRef = 220A411922C87FB200D6254E /* gl3w */; };
+		2207792522C8830500662ACC /* PlatformBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 220A412022C87FB200D6254E /* PlatformBase.h */; };
+		2207792622C8830500662ACC /* RenderAPI_D3D11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220A411F22C87FB200D6254E /* RenderAPI_D3D11.cpp */; };
+		2207792722C8830500662ACC /* RenderAPI_D3D12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220A411E22C87FB200D6254E /* RenderAPI_D3D12.cpp */; };
+		2207792822C8830500662ACC /* RenderAPI_Metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 220A411C22C87FB200D6254E /* RenderAPI_Metal.mm */; };
+		2207792922C8830500662ACC /* RenderAPI_OpenGLCoreES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220A411722C87FB200D6254E /* RenderAPI_OpenGLCoreES.cpp */; };
+		2207792A22C8830500662ACC /* RenderAPI_Vulkan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220A411822C87FB200D6254E /* RenderAPI_Vulkan.cpp */; };
+		2207792B22C8830500662ACC /* RenderAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220A411D22C87FB200D6254E /* RenderAPI.cpp */; };
+		2207792C22C8830500662ACC /* RenderAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = 220A411B22C87FB200D6254E /* RenderAPI.h */; };
+		2207792D22C8830500662ACC /* RenderingPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220A411A22C87FB200D6254E /* RenderingPlugin.cpp */; };
+		2207792E22C8830500662ACC /* RenderingPlugin.def in Sources */ = {isa = PBXBuildFile; fileRef = 220A411522C87FB200D6254E /* RenderingPlugin.def */; };
+		2207792F22C8830500662ACC /* Unity in Sources */ = {isa = PBXBuildFile; fileRef = 220A411622C87FB200D6254E /* Unity */; };
+		2207793022C8830500662ACC /* OpenCVPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22363DD522B5FF7F00F88E1B /* OpenCVPlugin.cpp */; };
+		2207793122C8830500662ACC /* OpenCVPlugin.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 22363DD422B5FF7F00F88E1B /* OpenCVPlugin.hpp */; };
+		229FBDEB22B70000005CB79F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229FBDEA22B70000005CB79F /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22363DC422B5FB9400F88E1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		220A411522C87FB200D6254E /* RenderingPlugin.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RenderingPlugin.def; sourceTree = "<group>"; };
+		220A411622C87FB200D6254E /* Unity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Unity; sourceTree = "<group>"; };
+		220A411722C87FB200D6254E /* RenderAPI_OpenGLCoreES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI_OpenGLCoreES.cpp; sourceTree = "<group>"; };
+		220A411822C87FB200D6254E /* RenderAPI_Vulkan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI_Vulkan.cpp; sourceTree = "<group>"; };
+		220A411922C87FB200D6254E /* gl3w */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gl3w; sourceTree = "<group>"; };
+		220A411A22C87FB200D6254E /* RenderingPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingPlugin.cpp; sourceTree = "<group>"; };
+		220A411B22C87FB200D6254E /* RenderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderAPI.h; sourceTree = "<group>"; };
+		220A411C22C87FB200D6254E /* RenderAPI_Metal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderAPI_Metal.mm; sourceTree = "<group>"; };
+		220A411D22C87FB200D6254E /* RenderAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI.cpp; sourceTree = "<group>"; };
+		220A411E22C87FB200D6254E /* RenderAPI_D3D12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI_D3D12.cpp; sourceTree = "<group>"; };
+		220A411F22C87FB200D6254E /* RenderAPI_D3D11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAPI_D3D11.cpp; sourceTree = "<group>"; };
+		220A412022C87FB200D6254E /* PlatformBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformBase.h; sourceTree = "<group>"; };
+		22363DC622B5FB9400F88E1B /* libiosPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiosPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22363DD422B5FF7F00F88E1B /* OpenCVPlugin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpenCVPlugin.hpp; sourceTree = "<group>"; };
+		22363DD522B5FF7F00F88E1B /* OpenCVPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCVPlugin.cpp; sourceTree = "<group>"; };
+		229FBDEA22B70000005CB79F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../Desktop/ios/opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22363DC322B5FB9400F88E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229FBDEB22B70000005CB79F /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22363DBD22B5FB9400F88E1B = {
+			isa = PBXGroup;
+			children = (
+				229FBDEA22B70000005CB79F /* opencv2.framework */,
+				22363DC822B5FB9400F88E1B /* iosPlugin */,
+				22363DC722B5FB9400F88E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22363DC722B5FB9400F88E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22363DC622B5FB9400F88E1B /* libiosPlugin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22363DC822B5FB9400F88E1B /* iosPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				220A411922C87FB200D6254E /* gl3w */,
+				220A412022C87FB200D6254E /* PlatformBase.h */,
+				220A411F22C87FB200D6254E /* RenderAPI_D3D11.cpp */,
+				220A411E22C87FB200D6254E /* RenderAPI_D3D12.cpp */,
+				220A411C22C87FB200D6254E /* RenderAPI_Metal.mm */,
+				220A411722C87FB200D6254E /* RenderAPI_OpenGLCoreES.cpp */,
+				220A411822C87FB200D6254E /* RenderAPI_Vulkan.cpp */,
+				220A411D22C87FB200D6254E /* RenderAPI.cpp */,
+				220A411B22C87FB200D6254E /* RenderAPI.h */,
+				220A411A22C87FB200D6254E /* RenderingPlugin.cpp */,
+				220A411522C87FB200D6254E /* RenderingPlugin.def */,
+				220A411622C87FB200D6254E /* Unity */,
+				22363DD522B5FF7F00F88E1B /* OpenCVPlugin.cpp */,
+				22363DD422B5FF7F00F88E1B /* OpenCVPlugin.hpp */,
+			);
+			path = iosPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22363DC522B5FB9400F88E1B /* iosPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22363DCF22B5FB9400F88E1B /* Build configuration list for PBXNativeTarget "iosPlugin" */;
+			buildPhases = (
+				22363DC222B5FB9400F88E1B /* Sources */,
+				22363DC322B5FB9400F88E1B /* Frameworks */,
+				22363DC422B5FB9400F88E1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosPlugin;
+			productName = iosPlugin;
+			productReference = 22363DC622B5FB9400F88E1B /* libiosPlugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22363DBE22B5FB9400F88E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "matthew hallberg";
+				TargetAttributes = {
+					22363DC522B5FB9400F88E1B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 22363DC122B5FB9400F88E1B /* Build configuration list for PBXProject "iosPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22363DBD22B5FB9400F88E1B;
+			productRefGroup = 22363DC722B5FB9400F88E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22363DC522B5FB9400F88E1B /* iosPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22363DC222B5FB9400F88E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2207792422C8830500662ACC /* gl3w in Sources */,
+				2207792522C8830500662ACC /* PlatformBase.h in Sources */,
+				2207792622C8830500662ACC /* RenderAPI_D3D11.cpp in Sources */,
+				2207792722C8830500662ACC /* RenderAPI_D3D12.cpp in Sources */,
+				2207792822C8830500662ACC /* RenderAPI_Metal.mm in Sources */,
+				2207792922C8830500662ACC /* RenderAPI_OpenGLCoreES.cpp in Sources */,
+				2207792A22C8830500662ACC /* RenderAPI_Vulkan.cpp in Sources */,
+				2207792B22C8830500662ACC /* RenderAPI.cpp in Sources */,
+				2207792C22C8830500662ACC /* RenderAPI.h in Sources */,
+				2207792D22C8830500662ACC /* RenderingPlugin.cpp in Sources */,
+				2207792E22C8830500662ACC /* RenderingPlugin.def in Sources */,
+				2207792F22C8830500662ACC /* Unity in Sources */,
+				2207793022C8830500662ACC /* OpenCVPlugin.cpp in Sources */,
+				2207793122C8830500662ACC /* OpenCVPlugin.hpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22363DCD22B5FB9400F88E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22363DCE22B5FB9400F88E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22363DD022B5FB9400F88E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJ3U68QPD9;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		22363DD122B5FB9400F88E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJ3U68QPD9;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22363DC122B5FB9400F88E1B /* Build configuration list for PBXProject "iosPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22363DCD22B5FB9400F88E1B /* Debug */,
+				22363DCE22B5FB9400F88E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22363DCF22B5FB9400F88E1B /* Build configuration list for PBXNativeTarget "iosPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22363DD022B5FB9400F88E1B /* Debug */,
+				22363DD122B5FB9400F88E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22363DBE22B5FB9400F88E1B /* Project object */;
+}
